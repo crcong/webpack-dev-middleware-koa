@@ -4,7 +4,7 @@
   "description": "webpack-dev-middleware for koa",
   "main": "src/index.js",
   "scripts": {
-    "release": "pnpm build && bumpp --push --tag --commit && npm publish"
+    "release": "bumpp --push --tag --commit && npm publish"
   },
   "author": "crcong",
   "license": "MIC",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@crcong/eslint-config-basic": "^0.2.0",
+    "bumpp": "^7.1.1",
     "eslint": "^8.11.0"
   }
 }
