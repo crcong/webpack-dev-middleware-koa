@@ -1,4 +1,4 @@
-# webpack-dev-middleware
+# webpack-dev-middleware-koa
 
 webpack-dev-middleware for koa
 
